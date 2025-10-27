@@ -8,7 +8,7 @@ Table <- Table[, -1]
 # Remove columns 13 to 17 (irrelevant or extra variables)
 Table <- Table[, -c(13:17)]
 
-# --- 3. Convert the table into a numeric matrix -
+# --- 3. Convert the table into a numeric matrix 
 Meteo <- as.matrix(Table)
 
 # --- 4. Centering and scaling (standardization) ---
