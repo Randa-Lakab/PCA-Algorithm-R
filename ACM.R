@@ -1,7 +1,7 @@
 # --- 1. Load the dataset 
 Table <- read.csv("METEO_BD.csv")
 
-# --- 2. Data cleaning ---
+# --- 2. Data cleaning --
 # Remove the first column (often an index or label)
 Table <- Table[, -1]
 
