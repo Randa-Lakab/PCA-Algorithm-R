@@ -17,7 +17,7 @@ Meteo_Moy_Ecart <- scale(Meteo, center = TRUE, scale = TRUE)
 # --- 5. Compute the covariance matrix 
 Mat_Cov <- cov(Meteo_Moy_Ecart)
 
-# --- 6. Eigen decomposition ---
+# --- 6. Eigen decomposition --
 # Extract eigenvalues and eigenvectors from the covariance matrix
 eig_result <- eigen(Mat_Cov)
 Values <- eig_result$values
