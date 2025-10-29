@@ -40,7 +40,7 @@ acp <- prcomp(Meteo, scale. = TRUE)
 # Summary of variance explained by each principal component
 summary(acp)
 
-# --- 9. Visualization ---
+# --- 9. Visualization --
 # Scree plot: shows the variance explained by each component
 plot(acp, main = "Variance Explained by Principal Components")
 
