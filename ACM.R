@@ -33,7 +33,7 @@ print(Values)
 cat("\n=== Eigenvectors ===\n")
 print(Vectors)
 
-# --- 8. (Optional) PCA using the built-in R function --
+# --- 8. (Optional) PCA using the built-in R function -
 # This step checks the results using R’s built-in PCA function
 acp <- prcomp(Meteo, scale. = TRUE)
 
