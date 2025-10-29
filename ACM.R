@@ -10,7 +10,7 @@ Table <- Table[, -c(13:17)]
 
 # --- 3. Convert the table into a numeric matrix 
 Meteo <- as.matrix(Table)
-# --- 4. Centering and scaling (standardization) --
+# --- 4. Centering and scaling (standardization) -
 # Each column (variable) is centered (mean = 0) and scaled (std = 1)
 Meteo_Moy_Ecart <- scale(Meteo, center = TRUE, scale = TRUE)
 
