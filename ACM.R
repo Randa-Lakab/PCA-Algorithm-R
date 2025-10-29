@@ -14,7 +14,7 @@ Meteo <- as.matrix(Table)
 # Each column (variable) is centered (mean = 0) and scaled (std = 1)
 Meteo_Moy_Ecart <- scale(Meteo, center = TRUE, scale = TRUE)
 
-# --- 5. Compute the covariance matrix --
+# --- 5. Compute the covariance matrix -
 Mat_Cov <- cov(Meteo_Moy_Ecart)
 
 # --- 6. Eigen decomposition ---
