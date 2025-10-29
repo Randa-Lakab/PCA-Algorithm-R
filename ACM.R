@@ -23,7 +23,7 @@ eig_result <- eigen(Mat_Cov)
 Values <- eig_result$values
 Vectors <- eig_result$vectors
 
-# --- 7. Display results ---
+# --- 7. Display results --
 cat("=== Covariance Matrix ===\n")
 print(Mat_Cov)
 
